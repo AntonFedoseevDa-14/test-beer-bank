@@ -37,7 +37,7 @@ workflows:
   build-development:
     jobs:
       - build:
-          context: test_beer_bank_development
+          context: test-beer-bank
           filters:
             branches:
               only: master
